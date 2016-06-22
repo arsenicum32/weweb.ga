@@ -18,8 +18,11 @@
   <link rel="stylesheet" href="http://simplegrid.io/reset.css">
   <link rel="stylesheet" href="http://simplegrid.io/grid/simple-grid.css">
   <link rel="stylesheet" href="http://simplegrid.io/zc-grid.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>weweb dev</title>
   <meta name="description" content="A simple, lightweight grid and container system for your website.">
+  <script src='https://code.jquery.com/jquery-3.0.0.min.js' ></script>
+  <script src='js/index.js' ></script>
 </head>
 <body>
   <div class="jumbotron">
@@ -27,10 +30,10 @@
       <div class="row">
         <div class="col-12 center">
           <div class="img img-logo center"></div>
-          <h1>Пишем сайты, мобильные приложения</h1>
-          <h2 class="font-light">IT поддержка вашего бизнеса</h2>
+          <h1>Пишем. Сайты. Сложные.</h1>
+          <h2 class="font-light">IT решения для вашего продукта</h2>
           <a href="http://ars32.gq/order">
-            <button>заполнить бриф</button>
+            <button>связаться</button>
           </a>
         </div>
       </div>
@@ -48,23 +51,26 @@
       <div class="row">
         <div class="col-4 center">
           <div class="img img-responsive center"></div>
-          <h3>Responsive</h3>
+          <h3>Платформа не имеет значения</h3>
           <p>
-            Your website will display beautifully, no matter the device or screen type.
+            Мы пишем web сайты, сервисы, настраиваем сервера,
+            разрабатываем на мобильных устройствах, есть проекты
+            IoT, и даже делаем сайты для VR !!!
           </p>
         </div>
         <div class="col-4 center">
           <div class="img img-lightweight center"></div>
-          <h3>Lightweight</h3>
+          <h3>Реактивность</h3>
           <p>
-            The CSS is super light, so you won’t have to worry about adding to page load times.
+            Разрабатывая наши продукты мы ориентируемся на положительный
+            пользовательский опыт. Все наши приложения построены вокруг концепции реактивности.
           </p>
         </div>
         <div class="col-4 center">
           <div class="img img-simple center"></div>
-          <h3>Simple</h3>
+          <h3>Просто</h3>
           <p>
-            Simple Grid is made for all skill levels, so you can jump right into your project.
+            Просто расширять, дополнять, поддерживать наш код. Потому что мы пишем ровнО.
           </p>
         </div>
       </div>
@@ -78,17 +84,17 @@
       <div class="row">
         <div class="col-2 hidden-sm"></div>
         <div class="col-8">
-          <h3 class="center m-bottom">Simple Grid</h3>
+          <h3 class="center m-bottom">Как мы работаем?</h3>
           <p>
-            Simple Grid is a 12-column, lightweight CSS grid to help you quickly build responsive websites. Download the CSS stylesheet, add the appropriate classes to your markup, and you're off to the races. It’s that simple.
+            У нас всегда есть сайт и есть гипотезы в следующей формулировке: если мы изменим A, то конверсия увеличиться на n%, если мы сухо работаем с продуктом, мы продажник, и у нас нету ничего за душой... Я решил проблему неграмотной работы с гипотезами, вообще решил проблему "работы в корзину"... Мой цикл разработки выглядит следующим образом: это mvp? это продаёт? а так? а теперь?
           </p>
           <p>
-            Each column is contained within rows, which are contained within a container. The container is set to a maximum width of 960px, but you can edit without having to break anything.
+            Теперь дизайн исследования работает на наши бизнес задачи, отвечает на наш единственный вопрос, который больше не надо формулировать, мы убираем один лишний шаг работы и стартуем в космос.
           </p>
         </div>
         <div class="col-2 hidden-sm"></div>
       </div>
-      <div class="grid-display">
+      <!-- <div class="grid-display">
         <div class="row">
           <div class="col-1">
             <p>
@@ -168,7 +174,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-4 hidden-sm"></div>
         <div class="col-4">
@@ -179,42 +185,39 @@
       <div class="row">
         <div class="col-2 hidden-sm"></div>
         <div class="col-8">
-          <h3 class="center m-bottom">Simple Code</h3>
+          <h3 class="center m-bottom">Наши принципы</h3>
           <p>
-            All the code you need is simple and familiar. Simply state the number of columns you want your content to occupy in the .col class. For example, if you want your content to take up 8 columns (out of 12), simply give your content the class .col-8.
+            Мы не кормим своих клиентов спагетти
           </p>
           <p>
-            Simple grid is built mobile-first, so all columns will expand to the full container width on smaller screens. If you don’t want columns to expand on mobile devices and small screens, simply add -sm to the end of your column class name. For example, if you want to have two blocks of content floating side-by-side on small screens, each would be given the class name .col-6-sm.
+            Мы разрабатываем вместе с вами
           </p>
           <p>
-            Be sure to nest columns within a .row class. You may also choose to nest rows within a .container class.
+            У нас анархосиндикат
           </p>
           <p>
-            The download package now contains an SCSS file for those who prefer SASS as well.
+            Мы занимаемся всякими интересными вещами
           </p>
         </div>
         <div class="col-2 hidden-sm"></div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-12">
           <pre>
             <code>
     <span class="tag">&lt;</span><span class="el">div</span> <span class="name">class</span><span class="tag">=</span><span class="content">"container"</span><span class="tag">&gt;</span>
       <span class="tag">&lt;</span><span class="el">div</span> <span class="name">class</span><span class="tag">=</span><span class="content">"row"</span><span class="tag">&gt;</span>
         <span class="tag">&lt;</span><span class="el">div</span> <span class="name">class</span><span class="tag">=</span><span class="content">"col-3"</span><span class="tag">&gt;</span>
-          <span class="comment">&lt;!-- This content will take up 3/12 (or 1/4) of the container --&gt;</span>
         <span class="tag">&lt;/</span><span class="el">div</span><span class="tag">&gt;</span>
         <span class="tag">&lt;</span><span class="el">div</span> <span class="name">class</span><span class="tag">=</span><span class="content">"col-3"</span><span class="tag">&gt;</span>
-          <span class="comment">&lt;!-- This content will take up 3/12 (or 1/4) of the container --&gt;</span>
         <span class="tag">&lt;/</span><span class="el">div</span><span class="tag">&gt;</span>
         <span class="tag">&lt;</span><span class="el">div</span> <span class="name">class</span><span class="tag">=</span><span class="content">"col-6"</span><span class="tag">&gt;</span>
-          <span class="comment">&lt;!-- This content will take up 6/12 (or 1/2) of the container --&gt;</span>
         <span class="tag">&lt;/</span><span class="el">div</span><span class="tag">&gt;</span>
       <span class="tag">&lt;/</span><span class="el">div</span><span class="tag">&gt;</span>
     <span class="tag">&lt;/</span><span class="el">div</span><span class="tag">&gt;</span></code>
           </pre>
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-4 hidden-sm"></div>
         <div class="col-4">
@@ -229,12 +232,12 @@
           <p>
             Simple Grid uses Lato from Google Fonts as a base font-family. Font-size is based on root rem units.
           </p>
-          <h1>Header 1</h1>
+          <!-- <h1>Header 1</h1>
           <h2>Header 2</h2>
           <h3>Header 3</h3>
           <h4>Header 4</h4>
           <h5>Header 5</h5>
-          <h6>Header 6</h6>
+          <h6>Header 6</h6> -->
           <p>
             Additionally, should you choose to style any of the headers or paragraph font-weights, simply add the class .font-light, <span class="font-regular">.font-regular</span>, or <span class="font-heavy">.font-heavy</span> to your markup. Paragraph text is set by default to a font-weight of 200. Note: the .font-heavy class should not be used as a replacement for semantic bold body copy.
           </p>
@@ -250,9 +253,9 @@
       </div>
       <div class="row">
         <div class="col-12 center">
-          <h2 class="red">Start Building</h2>
-          <a href="http://simplegrid.io/simple-grid.zip" download>
-            <button class="btn-secondary">Download</button>
+          <h2 class="red">Оставить заявку</h2>
+          <a href="http://ars32.gq/order">
+            <button class="btn-secondary">связаться</button>
           </a>
         </div>
       </div>
@@ -267,9 +270,9 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <p>Simple Grid<br/>
-          Made by <a href="http://zcole.me" target="_blank">Zach Cole</a><br/>
-          Contribute on <a href="https://github.com/zachacole/Simple-Grid" target="_blank">Github</a><br/>
+          <p>ars32<br/>
+          email <a href="mailto:zombiehot@yandex.ru" target="_blank">zombiehot@yandex.ru</a><br/>
+          Телефон <a href="https://github.com/zachacole/Simple-Grid" target="_blank">8 916 483 58 27</a><br/>
           Share on <a href="https://twitter.com/intent/tweet?text=Simple%20Grid%3A%20A%20css%20grid%20for%20your%20website%3A%20http%3A%2F%2Fsimplegrid.io%2F%20by%20%40zachacole&source=webclient" target="_blank">Twitter</a></p>
           <p>
             Open source under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>
