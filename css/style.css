@@ -1,5 +1,9 @@
+body{
+  overflow-x: hidden;
+}
 .fly{
   position: absolute;
   width: 100px;
   height: auto;
+  left:0;
 }
