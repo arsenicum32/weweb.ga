@@ -2,6 +2,8 @@ window.onload = function(){
   for(var i in data ){ create(data[i]);}
 }
 
+
+
 window.onscroll = function(){
   var scrollHeight = Math.max(
     document.body.scrollHeight, document.documentElement.scrollHeight,
@@ -28,17 +30,12 @@ var data = [
 
 function fire(ob){
   if(ob.step>0){
-    var objs = $(".fly").each(function(){
-      var obj = $(this);
-      var speed = obj.speed || 3;
-      var offset =  ob.offset + window.innerHeight*obj.attr('offset')  + 'px';
-      var cof = obj.css('left').slice( 0,obj.css('left').length-2 );
-      console.log(cof);
-      obj.tr += Math.random()*50;
-      obj.css('-webkit-transform', 'rotate('+ obj.tr+'deg)');
-      obj.css('left', ( parseFloat(cof) + (Math.random() * window.innerWidth*ob.percent)/40 )  + 'px') //(ob.percent * window.innerWidth*speed - window.innerWidth * obj.attr('offset') )
-      obj.css('top', offset);
-    });
+    // var objs = $(".fly").each(function(){
+    //   var obj = $(this);
+    //   var point = bezier( ob.percent , [{x:0,y:0},{x:500,y: 500},{x:1000,y:1000}]);
+    //   obj.css('left',  point.x + 'px'); //(ob.percent * window.innerWidth*speed - window.innerWidth * obj.attr('offset') )
+    //   obj.css('top', point.y + 'px' );
+    // });
   }
 }
 
@@ -54,3 +51,5 @@ function create(p){
   document.body.appendChild(obj);
   return obj;
 }
+
+/// даём координаты и их время , возвращаем позицию
