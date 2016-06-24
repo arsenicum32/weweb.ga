@@ -165,7 +165,7 @@ footer p {
 }
 
 .img-logo {
-  background-image: url('http://simplegrid.io/grid/img/logo-white.svg');
+  background-image: url('http://simplegrid.io/img/logo-white.svg');
   background-size: contain;
   height: 40px;
   width: 40px;
@@ -174,7 +174,7 @@ footer p {
 
 .img-website-mock {
   position: relative;
-  background-image: url('http://simplegrid.io/grid/img/web-mock.png');
+  background-image: url('http://simplegrid.io/img/web-mock.png');
   height: 0;
   padding-top: 71.8%;
   margin-top: 80px;
@@ -182,13 +182,13 @@ footer p {
 }
 
 .img-responsive {
-  background-image: url('http://simplegrid.io/grid/img/responsive.png');
+  background-image: url('http://simplegrid.io/img/responsive.png');
   height: 96px;
   width: 144px;
 }
 
 .img-lightweight {
-  background-image: url('img/light.png');
+  background-image: url('http://simplegrid.io/img/light.png');
   height: 96px;
   width: 96px;
 }
