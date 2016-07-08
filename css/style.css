@@ -7,3 +7,39 @@ body{
   height: auto;
   left:0;
 }
+
+/*iframe{
+  width: 100%;
+  height: 600px;
+  background: white;
+}*/
+
+.iframe {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  background: white;
+  border: none;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  z-index: 2 !important;
+}
+
+.arrow{
+  position: relative;
+  top: -240px;
+  color: blue;
+  font-size: 2.5em;
+  width: 100%;
+  z-index: 2 !important;
+}
+.arrow a{
+  color: blue;
+}
+.right{
+  text-align: right;
+  left: 20px;
+}
+.left{
+  text-align: left;
+  left: -20px;
+}

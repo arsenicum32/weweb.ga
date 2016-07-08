@@ -1,8 +1,6 @@
-window.onload = function(){
+loader.push(function(){
   for(var i in data ){ create(data[i]);}
-}
-
-
+});
 
 window.onscroll = function(){
   var scrollHeight = Math.max(

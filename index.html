@@ -22,8 +22,10 @@
   <title>weweb dev</title>
   <meta name="description" content="A simple, lightweight grid and container system for your website.">
   <script src='https://code.jquery.com/jquery-3.0.0.min.js' ></script>
+  <script src='js/loader.js' ></script>
   <script src='js/help.js' ></script>
   <script src='js/index.js' ></script>
+  <script src='js/slideshow.js' ></script>
 </head>
 <body>
   <div class="jumbotron">
@@ -41,7 +43,8 @@
       <div class="row"> <!-- my site iframe><!-->
         <div class="col-2 hidden-sm"></div>
         <div class="col-8">
-          <iframe src='http://ars32.tk' class="img img-website-mock"></iframe>
+          <iframe class="iframe" src='http://ars32.tk' id='case'></iframe>
+          <div class='arrow right' id='arrow' ></div>
         </div>
         <div class="col-2 hidden-sm"></div>
       </div> <!-- my site iframe><!-->

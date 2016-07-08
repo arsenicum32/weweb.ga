@@ -159,6 +159,12 @@ footer p {
 
 /* IMAGES */
 
+iframe{
+  width: 100%;
+  z-index: 10;
+  height: 200px;
+}
+
 .img {
   background-size: contain;
   background-repeat: no-repeat;
@@ -174,11 +180,11 @@ footer p {
 
 .img-website-mock {
   position: relative;
-  background-image: url('http://simplegrid.io/img/web-mock.png');
-  height: 0;
+  background-image: url('../img/web-mock.png');
   padding-top: 71.8%;
   margin-top: 80px;
-  z-index: 200 !important;
+  height: 20px;
+  z-index: 2 !important;
 }
 
 .img-responsive {
@@ -194,7 +200,7 @@ footer p {
 }
 
 .img-simple {
-  background-image: url('img/simple.png');
+  background-image: url('http://simplegrid.io/img/simple.png');
   height: 96px;
   width: 132px;
 }
