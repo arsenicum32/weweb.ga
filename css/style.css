@@ -34,6 +34,7 @@ body{
 }
 .arrow a{
   color: blue;
+  background: linear-gradient(#F38BD3, #FE7880);
 }
 .right{
   text-align: right;
@@ -42,4 +43,25 @@ body{
 .left{
   text-align: left;
   left: -20px;
+}
+.loader{
+  background: black;
+}
+.pdesc{
+  position: relative;
+  top: -220px;
+  width: 50%;
+  min-width: 400px;
+  left: 20px;
+  background: linear-gradient(#F38BD3, #FE7880);
+  z-index: 2 !important;
+}
+.pdesc *{
+  margin: 0;
+  margin-left: 10%;
+  width: 80%;
+}
+.pdesc p{
+  font-size: 0.75em;
+  color: white;
 }
