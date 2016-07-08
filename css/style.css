@@ -51,7 +51,7 @@ body{
   position: relative;
   top: -220px;
   width: 50%;
-  min-width: 400px;
+  min-width: 200px;
   left: 20px;
   background: linear-gradient(#F38BD3, #FE7880);
   z-index: 2 !important;
